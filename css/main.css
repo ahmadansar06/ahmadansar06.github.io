@@ -46,6 +46,12 @@ body {
     padding: 10px;
   text-align: right;
 }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .left, .right {
+    width: 100%;
+  }
+}
 </style>
 </head>
 <body>
