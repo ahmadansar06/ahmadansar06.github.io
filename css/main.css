@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Ansar Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -36,7 +36,7 @@ body {
 
 /* Middle column */
 .column.middle {
-  width: 75%;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -48,7 +48,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: #111;
+  /*background-color: #111;
   padding: 10px;
   text-align: left;
 }
