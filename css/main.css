@@ -19,9 +19,12 @@ body {
   text-align: center;
   font-size: 35px;
 }
-
-
-
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 .left {
   width: 25%;
 }
@@ -53,8 +56,8 @@ body {
 </div>
 
 <div class="row">
-  <div class="column side" style="background-color:#aaa;">Column</div>
-  <div class="column middle" style="background-color:#bbb;">Column</div>
+  <div class="column left" >Column</div>
+  <div class="column right" >Column</div>
   
 </div>
 </div>
