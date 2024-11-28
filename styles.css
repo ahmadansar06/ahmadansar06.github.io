@@ -83,3 +83,13 @@ footer {
     color: var(--secondary-color);
     font-size: 0.9rem;
 }
+
+.side-image {
+    position: fixed; /* Gambar tetap di tempat saat halaman di-scroll */
+    left: 0;         /* Posisikan di sisi kiri halaman */
+    top: 50%;        /* Tengah secara vertikal */
+    transform: translateY(-50%); /* Pusatkan gambar secara vertikal */
+    width: 150px;    /* Sesuaikan ukuran gambar */
+    height: auto;    /* Jaga proporsi gambar */
+    z-index: 1000;   /* Pastikan gambar berada di atas elemen lainnya */
+}
