@@ -93,3 +93,5 @@ footer {
     height: auto;    /* Jaga proporsi gambar */
     z-index: 1000;   /* Pastikan gambar berada di atas elemen lainnya */
 }
+<!-- Include Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
