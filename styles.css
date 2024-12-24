@@ -171,4 +171,7 @@ h5 {
 .copyright {
   color: #7e7e7e;
   font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0;
 }
