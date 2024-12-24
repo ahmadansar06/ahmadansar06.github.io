@@ -109,13 +109,13 @@ body {
 }
 /* Content Styles */
 .content {
-  width: 78%;
+  width: 80%;
   padding: 20px;
   margin-left: 290px;
 }
 
 .content a {
-  color: #323232;
+  color: #000000;
   text-decoration: none;
   }
 
